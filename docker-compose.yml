@@ -1,0 +1,27 @@
+version: "3.9"
+
+
+services:
+  pg_service_new:
+    image: postgres:alpine
+    container_name: pg11
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: KarvonTaxiLeaderForeverKF2025
+      POSTGRES_DB: andijontaxi
+    ports:
+      - "5435:5432"
+    volumes:
+      - pgdata_forwarder:/var/lib/postgresql/data
+
+  bot:
+    build: .
+    image: taxiforwarder
+    container_name: taxi_forwarder
+    restart: always
+    command: python3 main.py
+    depends_on:
+      - pg_service_new
+
+volumes:
+  pgdata_forwarder:
