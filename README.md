@@ -1,7 +1,5 @@
 # TaxiBot
 
-## 🇺🇿 O'zbekcha Tavsif
-
 ### 🟩 Umumiy Ma'lumot
 
 **TaxiBot** — ikki yo‘nalish bo‘yicha taxi buyurtmalarini avtomatlashtiruvchi bot bo‘lib, haydovchi va mijoz o‘rtasidagi jarayonlarni soddalashtiradi. Bot buyurtmalarni haydovchilar guruhiga yuboradi, guruhni tartibga soladi, haydovchilarning obuna muddati va to‘lov holatini avtomatik boshqaradi.
@@ -58,7 +56,6 @@ TaxiBot public guruhga ulangan bo‘ladi va moderator sifatida ishlaydi:
 
 ---
 
-## 🇬🇧 English Version
 
 ## 🟩 Overview
 
